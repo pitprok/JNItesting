@@ -7,7 +7,7 @@
 #e.g. -I/usr/lib/jvm/java-12-openjdk-12.0.1.12-1.rolling.fc30.x86_64/include -I/usr/lib/jvm/java-12-openjdk-12.0.1.12-1.rolling.fc30.x86_64/include/linux
 
 #Go to the file that contains the demo program
-cd src/main/java/demo
+cd src/main/demo
 
 #Create the shared object that contains the helloworld() method implementation
 
