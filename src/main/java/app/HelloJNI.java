@@ -1,3 +1,5 @@
+package app;
+
 public class HelloJNI {
     static {
         System.loadLibrary("hello"); // Load native library hello.dll (Windows) or libhello.so (Unixes)
@@ -10,6 +12,6 @@ public class HelloJNI {
 
     // Test Driver
     public static void main(String[] args) {
-        new HelloJNI().sayHello();  // Create an instance and invoke the native method
+        new app.HelloJNI().sayHello();  // Create an instance and invoke the native method
     }
 }
